@@ -2,11 +2,11 @@
 using namespace std;
 
 
-
-
 int main() {
     int n=0,i=0,primo_numero=0,secondo_numero=1,numero_successivo=0;
     cin>>n;
+    cout<<primo_numero<<endl;
+    cout<<secondo_numero<<endl;
     if(n>2){
        for (int i=2;i<n;i++){
            numero_successivo=primo_numero+secondo_numero;
@@ -22,3 +22,4 @@ int main() {
 
     return 0;
 }
+
