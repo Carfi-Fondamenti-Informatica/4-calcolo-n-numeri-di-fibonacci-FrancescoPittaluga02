@@ -3,7 +3,7 @@ using namespace std;
 
 
 int main() {
-    int n=0,i=0,primo_numero=0,secondo_numero=1,numero_successivo=0;
+    int n=0,i=0,primo_numero=1,secondo_numero=1,numero_successivo=0;
     cin>>n;
     if(n<3) {
         cout << "errore" << endl;
